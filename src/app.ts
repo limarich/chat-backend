@@ -6,7 +6,6 @@ class App {
   public app: express.Application;
   public server: Server;
   private socketIo: Io;
-
   constructor() {
     this.app = express();
     this.server = createServer(this.app);
